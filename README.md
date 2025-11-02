@@ -1,6 +1,6 @@
 # Atividade: Análise Experimental de Divisão e Conquista vs. Programação Dinâmica
 
-[cite_start]Este repositório contém as implementações e a análise experimental para a atividade da disciplina **IC0004 - Algoritmos e Grafos** [cite: 2][cite_start], ministrada pelo Prof. George Lima[cite: 2].
+Este repositório contém as implementações e a análise experimental para a atividade da disciplina **IC0004 - Algoritmos e Grafos**, ministrada pelo Prof. George Lima.
 
 O objetivo deste projeto é comparar experimentalmente o desempenho de algoritmos de Divisão e Conquista (DC) puros (recursivos, *top-down*) contra suas implementações equivalentes usando Programação Dinâmica (PD) (*bottom-up*).
 
@@ -8,19 +8,19 @@ A análise foca em como a abordagem de PD resolve eficientemente o problema de *
 
 ## 🎯 Problemas Implementados
 
-[cite_start]Os experimentos foram realizados para os três problemas propostos[cite: 38, 39, 40], e os gráficos de complexidade (número de operações vs. tamanho da entrada `n`) foram gerados para cada um:
+Os experimentos foram realizados para os três problemas propostos, e os gráficos de complexidade (número de operações vs. tamanho da entrada) foram gerados para cada um:
 
 1.  **Subsequência Crescente Mais Longa** (LIS)
-    * **PD:** Implementação $\Theta(n^2)$
-    * **DC:** Implementação $\Theta(2^n)$
+    * PD: Implementação $\Theta(n^2)$
+    * DC: Implementação $\Theta(2^n)$
 
 2.  **Distância de Edição** (Edit Distance)
-    * **PD:** Implementação $\Theta(nm)$
-    * **DC:** Implementação $\Theta(3^{n+m})$
+    * PD: Implementação $\Theta(nm)$
+    * DC: Implementação $\Theta(3^{n+m})$
 
 3.  **Subconjunto Soma** (Subset Sum)
-    * **PD:** Implementação pseudo-polinomial $\Theta(nk)$
-    * **DC:** Implementação $\Theta(2^n)$
+    * PD: Implementação pseudo-polinomial $\Theta(nk)$
+    * DC: Implementação $\Theta(2^n)$
 
 ## 📂 Estrutura do Repositório
 
